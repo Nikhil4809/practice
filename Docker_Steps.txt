@@ -1,0 +1,20 @@
+*********Docker Steps*********
+
+
+1. sudo apt update
+2. sudo apt installdocker.io
+3. sudo docker ps
+4. sudo systemctl status docker 
+5. sudo docker images
+6. git clone <link>
+7. cd <folder_name>
+8. sudo docker build -t <image_name> .
+9. sudo docker run --name <image_name> -d -p8000:8000 <image_name>
+
+
+
+********putty steps*********
+
+1. ip address paste in browser
+2. data-->username-->ubuntu
+3. ssh-->auth-->credentials-->key link
